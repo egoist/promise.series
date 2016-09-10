@@ -1,9 +1,9 @@
 {
-  "name": "@rem/promise-series",
+  "name": "promise.series",
   "version": "0.1.0",
   "description": "Run Promise in series.",
   "license": "MIT",
-  "repository": "egoist/promise-series",
+  "repository": "egoist/promise.series",
   "author": {
     "name": "EGOIST",
     "email": "0x142857@gmail.com",

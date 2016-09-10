@@ -1,19 +1,19 @@
-# promise-series
+# promise.series
 
-[![NPM version](https://img.shields.io/npm/v/promise-series.svg?style=flat-square)](https://npmjs.com/package/promise-series) [![NPM downloads](https://img.shields.io/npm/dm/promise-series.svg?style=flat-square)](https://npmjs.com/package/promise-series) [![Build Status](https://img.shields.io/circleci/project/egoist/promise-series/master.svg?style=flat-square)](https://circleci.com/gh/egoist/promise-series)
+[![NPM version](https://img.shields.io/npm/v/promise.series.svg?style=flat-square)](https://npmjs.com/package/promise.series) [![NPM downloads](https://img.shields.io/npm/dm/promise.series.svg?style=flat-square)](https://npmjs.com/package/promise.series) [![Build Status](https://img.shields.io/circleci/project/egoist/promise.series/master.svg?style=flat-square)](https://circleci.com/gh/egoist/promise.series)
 
 > Run Promise in series.
 
 ## Install
 
 ```bash
-$ npm install --save @rem/promise-series
+$ npm install --save promise.series
 ```
 
 ## Usage
 
 ```js
-const promiseSeries = require('@rem/promise-series')
+const promiseSeries = require('promise.series')
 
 const sleep = timeout => {
   return new Promise(resolve => {

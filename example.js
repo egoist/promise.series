@@ -9,7 +9,7 @@ const sleep = timeout => {
   })
 }
 
-// each item returns a Promise
+// Each item returns a Promise
 promiseSeries([
   () => sleep(1000),
   () => sleep(2000)

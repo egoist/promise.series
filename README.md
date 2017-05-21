@@ -35,13 +35,27 @@ promiseSeries([
 
 ## API
 
-### promiseSeries(tasks)
+### promiseSeries(tasks, [initialValue])
 
 #### tasks
 
 Type: `array`
 
 An array of functions which return a Promise.
+
+#### initialValue
+
+Pass an initial value to the promise chain, eg:
+
+```js
+promiseSeries([
+  value => asyncOperation().then(() => value * 2),
+  value => asyncOperation().then(() => value * 2)
+], 1).then(result => {
+  console.log(res)
+  //=> 4
+})
+```
 
 ## Contributing
 

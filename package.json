@@ -1,6 +1,6 @@
 {
   "name": "promise.series",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Run Promise in series.",
   "license": "MIT",
   "repository": "egoist/promise.series",
